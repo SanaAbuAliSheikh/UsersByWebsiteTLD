@@ -1,5 +1,5 @@
 // Vanilla JS code to render card style column
-function renderColumn(title, users) {
+export function renderColumn(title, users) {
     const columnDiv = document.createElement('div');
     columnDiv.classList.add('column');
     const h3 = document.createElement('h3');
