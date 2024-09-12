@@ -18,7 +18,7 @@ function handleUsersData(usersData){
     let usersByTLD = {}
     usersData.forEach(user => {
         
-        const title = getDomain(user.website);
+        const title = "."+getDomain(user.website);
 
         // Now that we have title, let's maintain an object which has users against distinct domain
         // If usersByTLD object doesn't have title then do the following
